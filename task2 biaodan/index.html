@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="icon" href="img/heart.png"/>
+		<link href='css/task2.css' rel='stylesheet' type='text/css'>
+		<title>个人信息</title>
+	</head>
+	<body>
+		<div id='divs'>
+		<h1>请填写个人信息</h1>
+		<form action="#" method="get">
+			<fieldset>
+				<legend>基本信息</legend>
+				姓名<input type='text' placeholder='请输入姓名'></br>
+				年龄<input type='number' placeholder='20' min='0' max='100' step='1'>
+			</fieldset>
+			<fieldset>
+				<legend>你想在哪里收到邮件？</legend>
+				邮箱
+				<input id="regemail"  type="text"  name="email"  >
+				<div1 id="maillist">
+  					<ul>
+    					<li class="on"></li>
+   					 	<li>@qq.com</li>
+    					<li>@163.com</li>
+    					<li>@gmail.com</li>
+    					<li>@yahoo.com.cn</li>
+    					<li>@126.com</li>
+  					</ul>
+				</div1>
+			</fieldset>
+			<fieldset>
+				<legend>收入情况</legend>
+				月收入<input type='number' placeholder='20k+'></br>
+				银行卡<input type='number' >
+				有效期<input type='date'>
+			</fieldset>
+			<fieldset>
+				<legend>选取提交情况</legend>
+				文件<input type='file' placeholder=''></br>
+			</fieldset>
+		</form>
+		<button type='submit'>提交</button>
+		</div>
+	</body>
+</html>
+
+<script type="text/javascript" src="js/task2.js"></script>

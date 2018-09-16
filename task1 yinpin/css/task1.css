@@ -1,0 +1,20 @@
+	body{
+		margin-left:450px;
+	}
+	.div1{
+		border:1px;
+		border:solid 3px #4d7dd1;
+		width:329px;
+		height:513px;
+	}
+	li button{
+		margin-left:150px;
+	}
+	li{
+		list-style-type: none;
+		margin-top: 10px;
+	}
+	audio{
+		margin-top: 190px;
+		margin-left:13px;
+	}
