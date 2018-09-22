@@ -1,0 +1,23 @@
+fieldset{
+	width:850px;
+	height:200px;
+}
+legend{
+	color:red;
+}
+#color{
+	width:840px;
+	height:40px;
+	border:1px solid
+}
+#orange,#greenyellow,#red,#yellow,#deepskyblue{
+	width:25px;
+	height:25px;
+	float:left;
+	margin-left:20px;
+	margin-top:8px;
+}
+#txt{
+	width:820px;
+	height:70px;
+}
