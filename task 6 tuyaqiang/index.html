@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>涂鸦墙</title>
+		<link rel="icon" href="img/heart.png"/>
+	</head>
+	<style>
+		body{
+			background: url(img/bg3.JPG);
+			margin:0 auto;
+		}
+		ul li{
+			list-style: none;
+			width:140px;
+			height:100px;
+			float:left;
+			padding:25px;
+			margin-top:110px; 
+		}
+		img{
+			height:90px;
+			width:auto;
+			box-shadow:-10px 35px white,10px 35px white,10px -10px white,-10px -10px white;
+			
+		}
+		p{
+			margin:0 auto;
+			text-align: center;
+		}
+		ul li:nth-child(even){
+			transform: rotate(10deg);
+		}
+		ul li:nth-child(odd){
+			transform: rotate(-10deg);
+		}
+		ul li:first-child{
+			transform: rotate(-8deg);
+		}
+		ul li:last-child{
+			transform: rotate(8deg);
+		}
+		ul li:hover{
+			transform: scale(1.5,1.5);
+		}
+	</style>
+	<body>
+		<div id='div1'>
+			<ul>
+				<li><a><img src="img/11.jpg" /><p>相识</p></a></li>
+				<li><a><img src="img/22.jpg" /><p>凝视</p></a></li>
+				<li><a><img src="img/33.JPG"/><p>甜睡</p></a></li>
+				<li><a><img src="img/44.JPG"/><p>逗乐</p></a></li>
+				<li><a><img src="img/55.JPG"/><p>奔跑</p></a></li>
+				<li><a><img src="img/66.JPG"/><p>漠视</p></a></li>
+			</ul>
+		</div>
+	</body>
+</html>
