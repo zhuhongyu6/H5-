@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Bootstrap响应式网页</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<link rel="stylesheet" href="css/bootstrap.min.css">
+    	<link rel="icon" href="img/heart.png"/>
+	</head>
+	<body>
+  		<div class="container">
+  			<nav class="navbar navbar-inverse" id='goto'> 
+				<div class="container-fluid">
+			  		<div class="navbar-header">
+			    		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-1">
+			      			<span class="sr-only">导航开关</span>
+			      			<span class="icon-bar"></span>
+			      			<span class="icon-bar"></span>
+			      			<span class="icon-bar"></span>
+			    		</button>
+			    		<a class="navbar-brand" href="#">
+			    			<span class='glyphicon glyphicon-bell' ></span>Brand
+			    		</a>
+					</div>
+			  		<div class="collapse navbar-collapse" id="bs-1">
+			    		<ul class="nav navbar-nav">
+			      			<li class="active"><a href="#">Link</a></li>
+			      			<li><a href="#">Link1</a></li>
+			      			<li><a href="#">Link2</a></li>
+			      			<li><a href="#">Link3</a></li>
+			      			<li><a href="#">Link4</a></li>    
+			    		</ul>   
+			  		</div>
+				</div> 	
+			</nav> 
+  			<div id="generic" class="carousel slide" data-ride="carousel" style='margin-top:-20px;'>
+    			<ol class="carousel-indicators">
+      				<li data-target="#generic" data-slide-to="0" class="active"></li>
+      				<li data-target="#generic" data-slide-to="1"></li>
+      				<li data-target="#generic" data-slide-to="2"></li>
+    			</ol>
+    			<div class="carousel-inner" >
+      				<div class="item active">
+        				<img alt="First slide" src="img/banner.jpg">
+      				</div>
+      				<div class="item">
+        				<img alt="Second slide" src="img/banner1.jpg">
+        				<div class="carousel-caption">
+          					<h3>轮播图2</h3>
+        				</div>
+      				</div>
+      				<div class="item">
+        				<img alt="Third slide" src="img/banner3.jpg">
+						<div class="carousel-caption">
+          					<h3>轮播图3</h3>
+        				</div>
+     	 			</div>
+    			</div>
+  			</div>
+  	
+			<div class="row">
+				<div class="col-md-4">
+					<h2>Content area1&nbsp;<small>The First</small></h2>
+					<p>Bootstrap has a few easy ways to quickly get started,each one 
+					appealing to a different skill level and use case.Read through to 
+					see what suits your particular needs.
+					</p>
+				</div>
+				<div class="col-md-4">
+					<h2>Content area2&nbsp;<small>The Second</small></h2>
+					<p>Bootstrap has a few easy ways to quickly get started,each one 
+					appealing to a different skill level and use case.Read through to 
+					see what suits your particular needs.
+					</p>
+				</div> 
+				<div class="col-md-4">
+					<h2>Content area3&nbsp;<small>The Third</small></h2>
+					<p>Bootstrap has a few easy ways to quickly get started,each one 
+					appealing to a different skill level and use case.Read through to 
+					see what suits your particular needs.
+					</p>
+				</div>
+			</div>
+			
+			<div class='table-responsive'>
+				<table class="table table-striped">
+					<thead>
+						<tr><h2>Report Table&nbsp;<small>Form Detail</small></h2></tr>
+						<tr>
+							<th>#</th>
+							<th>first</th>
+							<th>second</th>
+							<th>third</th>
+							<th>forth</th>
+							<th>fifth</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>1</td>
+							<td>penatibus et magnis</td>
+							<td>what</td>
+							<td>messages</td>
+							<td>56</td>
+							<td><button type='button' class='btn btn-success'>提交</button></td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>penatibus et</td>
+							<td>you</td>
+							<td>information</td>
+							<td>44</td>
+							<td><button type='button' class='btn btn-success'>提交</button></td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>nulla non</td>
+							<td>test</td>
+							<td>testing</td>
+							<td>32</td>
+							<td><button type='button' class='btn btn-success'>提交</button></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			
+			<div class='row'>
+				<div class='col-md-6'><img src="img/pic.jpg"></div>	
+				<div class='col-sm-12 col-md-12 col-lg-6'>
+					<div class='row'>
+						<h2>Cum sociis natoque penatibus et magis disparturient montes</h2>
+					</div>
+					<div class='row'>
+						<p>
+							nascetur ridiculus mus.Nullam id dolor id nibh ultricies
+							vehicula,Cum soclls natoque penatibus et magnis dis 
+							parturient montes,nascetur ridiculus mus.
+ 						</p>
+					</div>
+					<div class='row'>
+						<div class='col-sm-12 col-md-6'>
+							<div class='row'>Mascenas sed diam eget nsus</div>
+							<div class='row'>Mascenas sed diam eget nsus</div>
+							<div class='row'>Mascenas sed diam eget nsus</div>
+							<div class='row'>Mascenas sed diam eget nsus</div>
+							<div class='row'>Mascenas sed diam eget nsus</div>
+							<div class='row'>Mascenas sed diam eget nsus</div>
+						</div>
+						<div class='col-sm-12 col-md-6'><img src="img/1.jpg"></div>
+					</div>
+				</div>	
+			</div>
+			
+			<div class='row'>
+				<div class='col-md-8 col-lg-6'>
+					<div class='row'>
+						<div class='col-md-12'><h2>Image Show&nbsp;<small>Images</small></h2></div>
+					</div>
+					<div class='row'>
+						<div class='col-md-4'><img src="img/2.jpg"></div>
+						<div class='col-md-4'><img src="img/3.jpg"></div>
+						<div class='col-md-4'><img src="img/4.jpg"></div>
+					</div>
+					<div class='row'>
+						<div class='col-md-12'>
+							<p>
+							nascetur ridiculus mus.Nullam id dolor id nibh ultricies
+							vehicula,Cum soclls natoque penatibus et magnis dis 
+							parturient montes,nascetur ridiculus mus.
+ 							</p>
+ 						</div>
+					</div>
+				</div>
+				<div class='col-sm-12 col-md-8 col-lg-6'>
+					<div class='col-md-12'><h2>User Login&nbsp;<small>Form</small></h2></div>
+					<div class='col-md-12'>	
+						<form class="form-horizontal">
+							<div class="form-group">
+					    		<label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+					    		<div class="col-sm-10">
+					      			<input type="email" class="form-control col-sm-10" id="inputEmail3" placeholder="Email">
+					    		</div>
+					  		</div>
+					  		<div class="form-group">
+					    		<label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+					    		<div class="col-sm-10">
+					      			<input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+					    		</div>
+					  		</div>
+					  		<div class="form-group">
+		    					<div class="col-sm-offset-2 col-sm-10">
+		      						<div class="checkbox">
+		        						<label>
+		          							<input type="checkbox">blue
+		        						</label>
+		        						<label>
+		          							<input type="checkbox">red
+		        						</label>
+		      						</div>
+		    					</div>
+		  					</div>
+		  					<div class="form-group">
+		        				<div class="col-sm-offset-2 col-sm-10">
+		          					<button type='submit' class='btn btn-info'>Sign in</button>
+		        				</div>
+		  					</div>
+						</form>
+					</div>	
+				</div>
+			</div>
+			
+			<nav class='navbar  navbar-inverse'>
+				<p style='color:white;'>网站地图
+					<a href='#goto' style='float:right'>返回顶部</a>
+				</p>
+				<p style='color:white;'>copyright@<a>www.xxxx.com</a></p>
+			</nav>
+			
+  		</div>	
+
+	  
+	  
+		<script src="js/jquery.js"></script>    
+    	<script src="js/bootstrap.min.js"></script>   
+	</body>
+</html>
